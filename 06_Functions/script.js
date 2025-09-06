@@ -88,3 +88,16 @@ const sum=(num)=>{
 
 console.log(sum(10));
 
+//if you do not give a default value to a parameter
+//it will be undefined
+const add3=(num1,num2)=>{
+    return num1+num2;
+}
+
+const result2=add3(2);
+console.log(result2) //NaN - Not a Number
+
+
+const sol=add3(0,0);
+console.log(sol);
+
